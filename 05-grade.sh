@@ -1,4 +1,4 @@
-#!/bin/sh
+# !/bin/sh
 
 
 echo "What did you get in the first ITEC 3860 test?"
@@ -12,7 +12,7 @@ elif [ $grade -ge 80 ]; then
 elif [ $grade -ge 70 ]; then
    echo "You got a C. Not bad."
 else
-   echo "Time to work on some extra credit assignments"
+   echo "Time to work on some extra credit assignments today"
 fi
 
 # exercise: write a script (that utilizes weather-util) 
